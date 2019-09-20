@@ -1,0 +1,116 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+h1 {
+    font-size: 72px;
+}
+h1 + p {
+    font-size: 30px;
+}
+h2 {
+    font-size: 24px;
+}
+p {
+    font-size: 36px;
+}
+a {
+    font-size: 18px;
+    text-decoration: none;
+}
+.grid {
+    display: grid;
+    min-width: 1600px;
+    grid-template-areas: "a a a a" "a a a a" "b b c c"
+    "d e f g" "h h i j" "k k l l";
+}
+.grid-item {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.grid-item-main {
+    background-image: url(../img/bg-main.png);
+    grid-area: a;
+    height: 900px;
+}
+.grid-item-red {
+    background-image: url(../img/bg-red.png);
+    grid-area: b;
+    height: 500px;
+}
+.grid-item-lgray {
+    background-color: #f3f1ef;
+    grid-area: c;
+    height: 500px;
+    align-content: center;
+}
+.grid-item-pic1 {
+    background-image: url(../img/bg-one.png);
+    grid-area: d;
+    height: 515px;
+}
+.grid-item-pic2 {
+    background-image: url(../img/bg-two.png);
+    grid-area: e;
+    height: 515px;
+}
+.grid-item-pic3 {
+    background-image: url(../img/bg-pic3.png);
+    grid-area: f;
+    height: 515px;
+}
+.grid-item-pic4 {
+    background-image: url(../img/bg-four.png);
+    grid-area: g;
+    height: 515px;
+}
+.grid-item-blue-text {
+    grid-area: h;
+    height: 515px;
+}
+.grid-item-pic5 {
+    background-image: url(../img/bg-five.png);
+    grid-area: i;
+    height: 515px;
+}
+.grid-item-bluebg {
+    grid-area: j;
+    height: 515px;
+}
+.grid-item-blue {
+    background-color: #3f729b;
+    color: #fff;
+}
+.grid-item-green {
+    background-color: #2ebd59;
+    color: #fff;
+    grid-area: k;
+    height: 515px;
+}
+.grid-item-gray {
+    background-color: #282b2f;
+    color: #fff;
+    grid-area: l;
+    height: 515px;
+}
+.grid-text {
+    display: grid;
+    margin: 80px;
+    width: 750px;
+    color: #666666;
+    font-size: 36px;
+}
+.grid-text a {
+    color: #f9f9f9;
+    border: 2px solid #f9f9f9;
+    border-radius: 30px;
+    width: fit-content;
+    padding: 15px 27px;
+}
+.grid-text-color-bg {
+    color: #f9f9f9;
+}
+.grid-text-main {
+    color: #000000;
+    margin: 200px;
+}
